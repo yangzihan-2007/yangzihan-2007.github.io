@@ -13,7 +13,7 @@ sidebar: true
 ### 学习路线清单
 
 1. [**Java+AI**](https://www.bilibili.com/video/BV1TJxCzSEEZ) - Java基础入门 + AI辅助编程
-2. [**Python+AI**](https://www.bilibili.com/video/BV1sHmB9uEne) - Python编程基础与AI应用
+2. [**Python+AI**](https://www.bilibili.com/video/BV1Jgf6YvE8e/?spm_id_from=333.337.search-card.all.click) - Python编程基础与AI应用
 3. [**Javaweb+AI**](https://www.bilibili.com/video/BV1yGydYEE3H) - Java Web开发全栈教程
 4. [**苍穹外卖**](https://www.bilibili.com/video/BV1TP411v7v6) - 企业级外卖项目实战
 5. [**AI天机学堂**](https://www.bilibili.com/video/BV1MFokBkEzC) - AI开发能力系统学习
