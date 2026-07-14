@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.DVvJjkUL.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"studynote/JAVA.md","filePath":"studynote/JAVA.md"}'),o={name:"studynote/JAVA.md"};function s(n,r,c,d,p,_){return e(),a("div")}const f=t(o,[["render",s]]);export{m as __pageData,f as default};
