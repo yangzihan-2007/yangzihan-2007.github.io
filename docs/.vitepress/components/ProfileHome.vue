@@ -25,14 +25,14 @@
         </div>
 
         <div class="card-row">
-          <a :href="notesLink2" class="card link-card">
+          <a :href="withBase('/studymap/roadmap')" class="card link-card">
             <div class="cover" style="background:linear-gradient(135deg,#f093fb,#f5576c)">
               <span class="cover-tag">LEARNING PATH</span>
               <h3>学习路线</h3>
             </div>
             <div class="card-body"><p>Java全栈学习路线整理，按顺序学习即可直达大厂水平</p></div>
           </a>
-          <a :href="notesLink" class="card link-card">
+          <a :href="withBase(notesLink)" class="card link-card">
             <div class="cover" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">
               <span class="cover-tag">MY NOTES</span>
               <h3>学习笔记</h3>
@@ -46,6 +46,8 @@
 </template>
 
 <script setup>
+import { withBase } from 'vitepress'
+
 defineProps({
   initial: { type: String, default: 'Z' },
   badgeText: { type: String, default: '欢迎来访，朋友' },
@@ -64,7 +66,6 @@ defineProps({
     '每一行代码都是进步的脚印，每一个项目都是对热爱的诠释。',
   ]},
   notesLink: { type: String, default: '/studynote/数据结构' },
-  notesLink2: { type: String, default: '/studymap/roadmap' },
 })
 </script>
 
