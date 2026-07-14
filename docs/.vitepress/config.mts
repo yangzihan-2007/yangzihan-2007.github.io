@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/yangzihan-2007/',
+  base: '/',
   title: "个人网站",
   description: "计算机专业学生 · 全栈开发爱好者",
   ignoreDeadLinks: true,
